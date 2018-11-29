@@ -50,8 +50,7 @@ def arp_display(pkt):
             try:
                 if "url" in button:
                     if "getreq" in button:
-                        request = requests.get(url_request, json=json.loads(
-                            button["body"]), headers=json.loads(button["headers"]))
+                        request = requests.get(url_request)
                     else:
                         request = requests.post(url_request, json=json.loads(
                             button["body"]), headers=json.loads(button["headers"]))
