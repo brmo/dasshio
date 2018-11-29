@@ -28,6 +28,7 @@
         "name": "str",
         "address": "str",
         "url": "str?",
+        "getreq": "bool",
         "headers": "str?",
         "body": "str?",
         "domain": "str?",
